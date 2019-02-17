@@ -1,0 +1,18 @@
+@import "../../utils/sass/screen";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.DataBlocks{
+    margin: auto;
+    width: 90%;
+    max-width: 750px;
+    min-height: 500px;
+    padding-bottom: 100px;
+    @media #{$screnNormalQuery}
+    {
+        padding-top: 100px;
+    }
+}
